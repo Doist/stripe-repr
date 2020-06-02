@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "stripe-repr"
-version = "1.0.0"
+version = "1.0.1"
 description = "A monkey-patch library to provide more compact representation for Stripe objects"
 readme = "README.md"
 homepage = "https://github.com/Doist/stripe-repr"
@@ -15,7 +15,7 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">= 3.6.0"
 stripe = "^2.48.0"
 
 [tool.poetry.dev-dependencies]
